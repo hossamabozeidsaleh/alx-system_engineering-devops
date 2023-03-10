@@ -1,1 +1,2 @@
- hi 
+#!/bin/bash
+#hossam abozaid 
