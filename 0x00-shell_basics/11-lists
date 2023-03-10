@@ -1,2 +1,2 @@
 #!/bin/bush
-ls -a . .. /boot
+ls -al . .. /boot
