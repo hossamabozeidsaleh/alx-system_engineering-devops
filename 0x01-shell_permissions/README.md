@@ -63,4 +63,3 @@ The file _hello is a symbolic link
 
 The file hello will be in the working directory
 
-- script that will play the StarWars IV episode in the terminal.
