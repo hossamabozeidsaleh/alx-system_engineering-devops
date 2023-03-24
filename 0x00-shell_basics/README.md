@@ -11,6 +11,7 @@ it contains :
 - script that Display current directory contents, including hidden files (starting with .). Use the long format.
 
 - script that Display current directory contents.
+
  Long format
  with user and group IDs displayed numerically
  And hidden files (starting with .)
@@ -20,6 +21,7 @@ it contains :
 - script that Move the file betty from /tmp/ to /tmp/my_first_directory.
 
 - script that Delete the file betty.
+
  The file betty is in /tmp/my_first_directory
 
 - script that Delete the directory my_first_directory that is in the /tmp directory.
