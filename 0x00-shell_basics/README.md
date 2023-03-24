@@ -11,16 +11,16 @@ it contains :
 - script that Display current directory contents, including hidden files (starting with .). Use the long format.
 
 - script that Display current directory contents.
-* Long format
-* with user and group IDs displayed numerically
-* And hidden files (starting with .)
+ Long format
+ with user and group IDs displayed numerically
+ And hidden files (starting with .)
 
 - script that Create a script that creates a directory named my_first_directory in the /tmp/ directory.
 
 - script that Move the file betty from /tmp/ to /tmp/my_first_directory.
 
 - script that Delete the file betty.
-* The file betty is in /tmp/my_first_directory
+ The file betty is in /tmp/my_first_directory
 
 - script that Delete the directory my_first_directory that is in the /tmp directory.
 
@@ -34,7 +34,7 @@ it contains :
 
 - script that Create a script that copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory.
 
-* You can consider that all HTML files have the extension .html
+ You can consider that all HTML files have the extension .html
 
 - script that script that moves all files beginning with an uppercase letter to the directory /tmp/u. (100-lets_move)
 
