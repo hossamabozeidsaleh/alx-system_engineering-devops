@@ -7,7 +7,7 @@ All of the following files are scripts:
 		
 | -------- | ----------- |
 
-| `0-iam_betty` | script that switches the current user to the "user betty"
+| `0-iam_betty` | script that switches the current user to the user betty
 
 You should use exactly 8 characters for your command (+1 character for the new line)
 You can assume that the user betty will exist when we will run your script |
