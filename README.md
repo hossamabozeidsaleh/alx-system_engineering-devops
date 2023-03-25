@@ -7,10 +7,10 @@ This guide aims to explain how to write shell scripts for different purposes.  S
 
 it contains : 4 directory 
 
- 0x00-shell_basics
+ `0x00-shell_basics`
 
- 0x01-shell_permissions
+ `0x01-shell_permissions`
 
- 0x02-shell_redirections
+ `0x02-shell_redirections`
  
- 0x03-shell_variables_expansions
+ `0x03-shell_variables_expansions`
