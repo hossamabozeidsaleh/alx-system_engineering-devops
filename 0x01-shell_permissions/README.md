@@ -7,18 +7,18 @@ All of the following files are scripts:
 		
 | -------- | ----------- |
 
-| script that switches the current user to the user betty |
+| 0-iam_betty | script that switches the current user to the user betty 
 
 You should use exactly 8 characters for your command (+1 character for the new line)
-You can assume that the user betty will exist when we will run your script
+You can assume that the user betty will exist when we will run your script |
 
-| script that prints the effective username of the current user |
+| 1-who_am_i | script that prints the effective username of the current user |
 
-| script that prints all the groups the current user is part of |
+| 2-groups | script that prints all the groups the current user is part of |
 
-| script that changes the owner of the file hello to the user betty |
+| 3-new_owner | script that changes the owner of the file hello to the user betty |
 
-| script that creates an empty file called hello |
+| 4-empty | script that creates an empty file called hello |
 
 | script that adds execute permission to the owner of the file hello |
 
