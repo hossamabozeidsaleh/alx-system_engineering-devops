@@ -3,7 +3,7 @@
 
 introduction
 
-This guide aims to explain how to write shell scripts for different purposes.  Shell scripts can be used to execute many commands, a single command with many complex arguments, or more user-friendly interfaces to distribute your work.  Basically, shell scripts are used to make some work easier by running them automatically without having to rewrite them every time you need them.
+This progect aims to explain how to write shell scripts for different purposes.  Shell scripts can be used to execute many commands, a single command with many complex arguments, or more user-friendly interfaces to distribute your work.  Basically, shell scripts are used to make some work easier by running them automatically without having to rewrite them every time you need them.
 
 it contains : 4 directory 
 
