@@ -1,4 +1,4 @@
-# 0x03. Shell, init files, variables and expansions
+# 0x02-shell_redirections
 
 
 All of the following files are scripts:
