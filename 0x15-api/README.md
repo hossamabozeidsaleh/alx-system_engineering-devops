@@ -1,32 +1,36 @@
-# Quick Reference
+# 0x15. API
 
-## Bash Scripting
+# API
 
-Avoid using Bash scripting for complex tasks. It's best suited for simple automation and not ideal for larger projects or tasks requiring extensive logic.
+This project was further practice in working with API's. I collected data from the
+[JSONPlaceholder REST API](https://jsonplaceholder.typicode.com/), and learned how
+to export it to either CSV or JSON format.
 
-## API and Microservices
+## Tasks :page_with_curl:
 
-- **API**: Acronym for Application Programming Interface, a set of rules allowing different software applications to communicate.
-- **REST API**: A type of API that adheres to the principles of Representational State Transfer.
+* **0. Gather data from an API**
+  * [0-gather_data_from_an_API.py](./0-gather_data_from_an_API.py): Python script
+  that returns information on the to-do list progress of a given employee ID.
+  * Usage: `python3 0-gather_data_from_an_API.py <employee ID>`.
+  * Output: `Employee <employee name> is done with tasks(<# completed tasks>/<total # tasks>):`
 
-## Microservices
+* **1. Export to CSV**
+  * [1-export_to_CSV.py](./1-export_to_CSV.py): Python script exports to-do list
+  information of a given employee ID to CSV format.
+  * Usage: `python3 1-export_to_CSV.py <employee ID>`
+  * File name: `<user id>.csv`.
+  * Format: `"<user id>","<username>","<task completed status>","<task title>"`.
 
-Explore the concept of microservices, a software architecture that structures an application as a collection of small, independent services.
+* **2. Export to JSON**
+  * [2-export_to_JSON.py](./2-export_to_JSON.py): Python script that exports
+  to-do list information of a given employee ID to JSON format.
+  * Usage: `python3 2-export_to_JSON.py <employee ID>`
+  * File name: `<user id>.json`
+  * Format: `{ "<user id>": [ {"task": "<task title>", "completed": <task completed status>, "username": "<username>"}}, ... ]}`
 
-## Data Formats
-
-- **CSV Format**: A simple, tabular data format.
-- **JSON Format**: A lightweight data interchange format.
-
-## Python Coding Style
-
-Follow Pythonic coding style for clarity and consistency:
-
-- **Package and Module Name**: Use lowercase with underscores.
-- **Class Name**: Use CapWords or CamelCase.
-- **Variable, Function, and Constant Name**: Use lowercase with underscores.
-  
-## Significance of CamelCase
-
-In Python, CapWords or CamelCase is significant for class names, emphasizing their distinct identity within the codebase.
-
+* **3. Dictionary of list of dictionaries**
+  * [3-dictionary_of_list_of_dictionaries.py](./3-dictionary_of_list_of_dictionaries.py):
+  Python script that exports to-do list information for all employees to JSON format.
+  * Usage: `python3 3-dictionary_of_list_of_dictionaries.py`
+  * File name: `todo_all_employees.json`
+  * Format: `{ "<user id>": [ {"username": "<username>", "task": "<task title>", "completed": <task completed status>}, {"username": "<username>", "task": "<task title>", "completed": <task completed status>}, ... ], "<user id>": [ {"username": "<username>", "task": "<task title>", "completed": <task completed status>}, {"username": "<username>", "task": "<task title>", "completed": <task completed status>}, ... ]}`
